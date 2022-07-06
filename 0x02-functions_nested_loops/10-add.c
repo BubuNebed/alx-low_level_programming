@@ -1,4 +1,4 @@
-#include "alx.h"
+#include "main.h"
 /**
  * add - a function that adds to integers and returns the result
  * @one: first number input
