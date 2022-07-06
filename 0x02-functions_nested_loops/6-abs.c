@@ -4,7 +4,11 @@
  * @ab: integer input
  * Return: absolute value of ab
  */
-int -abs(int ab)
+int -abs(int n)
 {
-	return (ab * ((ab > 0) - (ab < 0)));
+	if (n >= 0)
+		return (n);
+	else
+		return (-n);
+	
 }
