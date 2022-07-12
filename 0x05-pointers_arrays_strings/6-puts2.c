@@ -1,4 +1,4 @@
-#include "main,h"
+#include "holberton.h"
 
 /**
  * puts2 - prints alternate characters
