@@ -2,11 +2,12 @@
 
 /**
  * _strncat - a function that concatenates two strings
- * @dest: copy to
- * @src: copy from
- * @n: input of max bytes to be used
- * Return: Always 0 (Success)
+ * @dest: The destination value
+ * @src: The source value
+ * @n: The limit of the concatenation
+ * Return: A pointer to the resulting string dest
  */
+char *_strncat(char *dest, char *src, int n)
 {
 
       int i, co;
@@ -20,5 +21,5 @@
 	      if (src[co] == '\0')
 		      co = n;
       }
-      return 9dest);
+      return (dest);
 }
